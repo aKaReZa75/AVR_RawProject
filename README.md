@@ -98,10 +98,10 @@ These flags allow the use of functions like `sprintf` to handle floating-point n
   This video offers a **step-by-step guide on installing and setting up VSCode** along with **PlatformIO** for embedded development. Learn how to configure VSCode as an efficient Integrated Development Environment (IDE) for programming AVR and other microcontrollers.   
   The guide covers **PlatformIO installation**, **toolchain setup**, **project creation**, and **debugging setup**. Whether you are new to VSCode or an experienced developer looking to integrate PlatformIO into your workflow, this resource will ensure a smooth setup for all your embedded development projects.
 
-- [bitWise Maros](./Macros.md)  
+- [bitWise Macros](https://github.com/aKaReZa75/AVR/blob/main/Macros.md) 
   ---  
-  This document explains the minimal required hardware setup to power up and properly boot the ESP8266. It ensures stable operation and avoids unexpected boot failures.
-
+   There is a header file named **`aKaReZa.h`** in the project that contains a set of these macros. In this document, we explain the usage of each macro from the header, with relevant examples to show their application.
+  
 - [AVR Microcontroller Training](https://github.com/aKaReZa75/AVR)  
   ---  
   This repository provides a **comprehensive guide to AVR microcontroller programming**, covering everything from the fundamentals to advanced firmware development. Learn about **AVR architecture, peripheral interfacing, timers, interrupts, communication protocols**, and more through hands-on projects and real-world examples. Whether you're just starting or looking to refine your embedded programming skills, this resource will help you master AVR development.

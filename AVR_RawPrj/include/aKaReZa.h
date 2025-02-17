@@ -29,7 +29,7 @@
 #define bitCheckHigh(_Reg, _Bit)  ((_Reg>>_Bit) & 0x01)
 #define bitCheckLow(_Reg, _Bit)  (!(_Reg>>_Bit) & 0x01)
 #define bitWaitHigh(_Reg, _Bit)  while(!bitCheck(_Reg, _Bit))
-#define bitWaitLow (_Reg, _Bit)  while(bitCheck(_Reg, _Bit))
+#define bitWaitLow(_Reg, _Bit)  while(bitCheck(_Reg, _Bit))
 #define bitShiftLeft(_Reg, _Pos)  (_Reg = _Reg << _Pos)
 #define bitShiftRight(_Reg, _Pos) (_Reg = _Reg >> _Pos)
 #define Conv_16to8_MSB(_Value) (uint8_t) (_Value >> 8)

@@ -1,11 +1,15 @@
-/* @file     aKaReZa.h                                */                      
-/* @brief    AVR microcontollers headfile             */
-/* @note     This file is for _AVR_ microcontrollers  */   
-/* @author   Hossein Bagheri                          */
-/* @github   aKaReZa75                                */
-/* @youtube  aKaReZa75                                */
-/* @linkedin aKaReZa75                                */
-/* @email    aKaReZa75@gmail.com                      */
+/**
+ * @file     aKaReZa.h
+ * @brief    Header file for AVR microcontrollers.
+ * @note     This file is designed for use with AVR microcontrollers.
+ * 
+ * @author   Hossein Bagheri
+ * @github   https://github.com/aKaReZa75
+ * 
+ * @note     For a complete list of all macros in this header file, 
+ *  		 along with detailed explanations and examples of usage, visit: 
+ *           https://github.com/aKaReZa75/AVR/blob/main/Macros.md 
+ */
 
 #ifndef _aKaReZa_H_
 #define _aKaReZa_H_

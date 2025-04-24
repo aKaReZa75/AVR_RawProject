@@ -1,22 +1,6 @@
 # AVR RawProject
 This repository contains the initial setup files for a new AVR project in PlatformIO and VSCode. With these ready-to-use files, you can easily get started with AVR programming by simply copying and pasting them into your PlatformIO workspace. The repository is designed to provide a quick and simple setup to save you time and effort when starting new projects.
 
-> [!CAUTION]
-> It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
-
-**Default Configuration Settings**    
-
-| **Setting**                      | **Default Value**                |
-|----------------------------------|----------------------------------|
-| Programmer                       | Onboard USB to TTL Converter     |
-| Oscillator Frequency             | 16 MHz                           |
-| Serial Port                      | COM5 (depends on system)         |
-| Serial Baud Rate                 | 115200 bps                       |
-
-> [!IMPORTANT]
-The upload_port parameter in your platformio.ini file must match the COM port identified by your system for proper communication.   
-For example, if your system assigns COM5 to the device, make sure the upload_port = COM5 line is correctly set.
-
 <table>
   <tr>
   <td valign="top">
@@ -35,8 +19,31 @@ For example, if your system assigns COM5 to the device, make sure the upload_por
              alt="aKaReZa 95 - Programming, Git - PART B Thumbnail"/>
       </a>
     </td>
+
+  </td>
   </tr>
+  <tr>
+  <td colspan="2">
+
+  > [!CAUTION]
+  > It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
+      
+  </td>
+  </tr>  
 </table>
+
+**Default Configuration Settings**    
+
+| **Setting**                      | **Default Value**                |
+|----------------------------------|----------------------------------|
+| Programmer                       | Onboard USB to TTL Converter     |
+| Oscillator Frequency             | 16 MHz                           |
+| Serial Port                      | COM5 (depends on system)         |
+| Serial Baud Rate                 | 115200 bps                       |
+
+> [!IMPORTANT]
+The upload_port parameter in your platformio.ini file must match the COM port identified by your system for proper communication.   
+For example, if your system assigns COM5 to the device, make sure the upload_port = COM5 line is correctly set.
 
 ## Programming Methode
 By default, this project is programmed through the **onboard USB to TTL converter** on the board. Simply connect the board to your computer via USB, and the programming process will proceed without the need for an external programmer.

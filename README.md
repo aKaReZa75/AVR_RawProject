@@ -17,11 +17,26 @@ This repository contains the initial setup files for a new AVR project in Platfo
 The upload_port parameter in your platformio.ini file must match the COM port identified by your system for proper communication.   
 For example, if your system assigns COM5 to the device, make sure the upload_port = COM5 line is correctly set.
 
-> [!TIP]
-> If you're looking to better understand how to navigate and use my GitHub repositories — including exploring their structure, downloading or cloning projects, submitting issues, and asking questions 
-> everything you need is clearly explained in this video:  
-> [aKaReZa 95 - Programming, Git - PART B](https://youtu.be/zYiUItVFRqQ)   
-> Make sure to check it out!
+<table>
+  <tr>
+  <td valign="top">
+  
+  > [!TIP]  
+  > If you're looking to better understand how to navigate and use my GitHub repositories — including exploring their structure, downloading or cloning projects, submitting issues, and asking questions,  
+  > everything you need is clearly explained in this video:  
+  > [aKaReZa 95 - Programming, Git - PART B](https://youtu.be/zYiUItVFRqQ)  
+  > Make sure to check it out!
+  
+  </td>
+    <td width="360" valign="middle" style="padding: 0;">
+      <a href="https://youtu.be/zYiUItVFRqQ">
+       <img src="https://img.youtube.com/vi/zYiUItVFRqQ/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 95 - Programming, Git - PART B Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Programming Methode
 By default, this project is programmed through the **onboard USB to TTL converter** on the board. Simply connect the board to your computer via USB, and the programming process will proceed without the need for an external programmer.

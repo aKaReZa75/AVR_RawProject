@@ -121,6 +121,11 @@ To enable support for decimal numbers in PlatformIO, the following flags need to
 These flags allow the use of functions like `sprintf` to handle floating-point numbers correctly. In this project, these flags are already included by default, ensuring that decimal numbers are properly supported in functions like `sprintf`.
 
 # Resources
+
+> [!TIP]
+> The resources are detailed in the sections below.  
+> To access any of them, simply click on the corresponding blue link.
+
 - [VSCode and PlatformIO Setup Guide](https://youtu.be/pgIYUdyb7S8)  
   ---  
   This video offers a **step-by-step guide on installing and setting up VSCode** along with **PlatformIO** for embedded development. Learn how to configure VSCode as an efficient Integrated Development Environment (IDE) for programming AVR and other microcontrollers.   

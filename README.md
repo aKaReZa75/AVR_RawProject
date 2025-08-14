@@ -134,6 +134,11 @@ These flags allow the use of functions like `sprintf` to handle floating-point n
   ---  
   This repository provides a **comprehensive guide to AVR microcontroller programming**, covering everything from the fundamentals to advanced firmware development. Learn about **AVR architecture, peripheral interfacing, timers, interrupts, communication protocols**, and more through hands-on projects and real-world examples. Whether you're just starting or looking to refine your embedded programming skills, this resource will help you master AVR development.
 
+- [eBoard for ATMEGA328](https://github.com/aKaReZa75/eBoard_ATMEGA328)  
+  ---  
+  This repository covers the **design, assembly, and testing** of an educational header board based on the ATMEGA328 AVR microcontroller. Fully **compatible with the Arduino UNO**, this board serves as a hands-on learning tool for AVR development. It includes detailed schematics, PCB layout files to help users explore microcontroller fundamentals, pin configurations, and peripheral interfacing in a practical, project-based format.
+
+
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
 1. **Using Git Bash and Cloning the Repository**

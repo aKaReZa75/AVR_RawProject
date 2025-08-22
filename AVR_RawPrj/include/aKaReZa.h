@@ -21,9 +21,9 @@
 #include <stdio.h>
 #include <avr/interrupt.h>
 
-#define bitSet(_Reg, _Bit)    (_Reg |= (1<<_Bit))
-#define bitClear(_Reg, _Bit)  (_Reg &= ~(1<<_Bit))
-#define bitToggle(_Reg, _Bit) (_Reg ^= 1<<_Bit)
+#define bitSet(_Reg, _Bit)    (_Reg |= (1ul<<_Bit))
+#define bitClear(_Reg, _Bit)  (_Reg &= ~(1ul<<_Bit))
+#define bitToggle(_Reg, _Bit) (_Reg ^= 1ul<<_Bit)
 #define bitChange(_Reg, _Bit, Value) (Value == 1 ? bitSet(_Reg, _Bit) : bitClear(_Reg, _Bit))
 #define bitCheck(_Reg, _Bit)  ((_Reg>>_Bit) & 0x01)
 #define bitCheckHigh(_Reg, _Bit)  (bitCheck(_Reg, _Bit))

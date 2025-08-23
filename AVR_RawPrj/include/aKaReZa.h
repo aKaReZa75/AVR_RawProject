@@ -18,6 +18,7 @@
 #include <util/delay.h>
 #include <stdint.h>
 #include <stdbool.h>
+#include <string.h>
 #include <stdio.h>
 #include <avr/interrupt.h>
 

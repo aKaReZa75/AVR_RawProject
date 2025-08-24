@@ -36,7 +36,7 @@
 #define Conv_16to8_MSB(_Value) (uint8_t) (_Value >> 8)
 #define Conv_16to8_LSB(_Value) (uint8_t) (_Value & 0xFF)
 #define Combine_8to16(_valueHigh, _valueLow) (uint16_t) (_valueLow + (_valueHigh<<8))
-#define Float_iSEqual(a, b, epsilon)  ( (MATH_Abs((a) - (b))) =< (eps) )
+#define Float_iSEqual(a, b, epsilon)  ((MATH_Abs((a) - (b))) <= (epsilon))
 
 #define GPIO_Config_OUTPUT(_Reg, _Bit) bitSet(_Reg, _Bit)
 #define GPIO_Config_INPUT(_Reg, _Bit) bitClear(_Reg, _Bit)
